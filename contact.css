@@ -1,0 +1,93 @@
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.mybutton {
+    background-color: white;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+    font-size: 20px;
+}
+
+.mybutton:hover {
+    background-color: rgb(29, 213, 103);
+    transition-duration: 1s;
+}
+
+
+
+
+.inputwrapper {
+    margin-bottom: 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0px;
+}
